@@ -11,14 +11,11 @@ public class SGESqlite
         if (context.Database.EnsureCreated())
         {
             Console.WriteLine("Se creó base de datos");
-            var connection = context.Database.GetDbConnection();
-            connection.Open();
-            using var command = connection.CreateCommand();
-            command.CommandText = "PRAGMA journal_mode=DELETE;";
-            command.ExecuteNonQuery();
         }
+        var connection = context.Database.GetDbConnection();
+        connection.Open();
+        using var command = connection.CreateCommand();
+        command.CommandText = "PRAGMA journal_mode=DELETE;";
+        command.ExecuteNonQuery();
     }
-
-
-
 }

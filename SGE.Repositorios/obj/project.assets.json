@@ -1207,11 +1207,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\SGE.Repositorios.csproj",
+      "projectUniqueName": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\SGE.Repositorios.csproj",
       "projectName": "SGE.Repositorios",
-      "projectPath": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\SGE.Repositorios.csproj",
+      "projectPath": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\SGE.Repositorios.csproj",
       "packagesPath": "C:\\Users\\fedec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\obj\\",
+      "outputPath": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fedec\\AppData\\Roaming\\NuGet\\NuGet.Config"

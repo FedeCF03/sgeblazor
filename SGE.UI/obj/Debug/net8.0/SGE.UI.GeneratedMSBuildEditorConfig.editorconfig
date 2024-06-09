@@ -9,17 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SGE.UI
 build_property.RootNamespace = SGE.UI
-build_property.ProjectDir = C:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI\
+build_property.ProjectDir = c:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI
+build_property.MSBuildProjectDirectory = c:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI
 build_property._RazorSourceGeneratorDebug = 
 
 [c:/Users/fedec/OneDrive/Documentos/SGE/SGE.UI/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/fedec/OneDrive/Documentos/SGE/SGE.UI/Components/LogIn.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dJbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/fedec/OneDrive/Documentos/SGE/SGE.UI/Components/Pages/Counter.razor]
@@ -32,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/Users/fedec/OneDrive/Documentos/SGE/SGE.UI/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/fedec/OneDrive/Documentos/SGE/SGE.UI/Components/Pages/LogIn.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dJbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/fedec/OneDrive/Documentos/SGE/SGE.UI/Components/Pages/Weather.razor]

@@ -4,7 +4,7 @@ namespace SGE.Aplicacion;
 
 public class CasoDeUsoExpedienteAlta(IExpedienteRepositorio repositorio, IServicioAutorizacion servicioAutorizacionProvisorio)
 {
-    public CasoDeUsoExpedienteAlta Ejecutar(int idUsuario, Expediente expediente)
+    public void Ejecutar(int idUsuario, Expediente expediente)
 
     {
         if (!servicioAutorizacionProvisorio.PoseeElPermiso(idUsuario, Permiso.ExpedienteAlta))
@@ -18,8 +18,8 @@ public class CasoDeUsoExpedienteAlta(IExpedienteRepositorio repositorio, IServic
         expediente.FechaCreacion = DateTime.Now;
         expediente.FechaUltModificacion = DateTime.Now;
         expediente.UsuarioUltModificacion = idUsuario;
+        expediente.Estado = EstadoExpediente.RecienIniciado;
         repositorio.Alta(expediente);
-        return this;
 
     }
 }

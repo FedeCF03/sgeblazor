@@ -2,7 +2,7 @@
 
 public class CasoDeUsoTramiteModificacion(ITramiteRepositorio tramiteRepositorio, IExpedienteRepositorio expedienteRepositorio, IServicioAutorizacion servicio, IEspecificacionCambioDeEstado especificacionCambioDeEstado)
 {
-    public CasoDeUsoTramiteModificacion Ejecutar(int usuario, Tramite tramite)
+    public void Ejecutar(int usuario, Tramite tramite)
     {
         if (!servicio.PoseeElPermiso(usuario, Permiso.TramiteModificacion))
             throw new AutorizacionExcepcion("No posee el permiso");
@@ -19,7 +19,6 @@ public class CasoDeUsoTramiteModificacion(ITramiteRepositorio tramiteRepositorio
         if (auxiliar?.Id == tramite.Id)
             ServicioActualizacionEstado.ActualizarEstado(tramiteRepositorio, expedienteRepositorio, especificacionCambioDeEstado, tramite.ExpedienteId, usuario);
 
-        return this;
     }
 
 }

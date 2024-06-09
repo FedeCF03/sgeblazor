@@ -1,43 +1,8 @@
 ﻿@page "/"
 @attribute [StreamRendering]
-@page "/weather"
 @using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.AspNetCore.Identity
 @using static SGE.UI.Components.Pages.Home
 @inject AuthenticationStateProvider AuthenticationStateProvider
-<EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
 
-    <input placeholder="Nombre" @bind="loginModel.Email" class="form-control">
-    <input placeholder="Password" type=password @bind="loginModel.Password" class="form-control">
-    <button class="btn btn-primary" type="submit">Log In</button>
-</EditForm>
-
-@code
-{
-    public class LoginModel
-    {
-
-        private loginModel _loginModel = new LoginModel();
-
-        public async Task HandleLogin()
-        {
-            var result = await SignInManager.PasswordSignInAsync(loginModel.Email, loginModel.Password, false, false);
-            if (result.Succeeded)
-            {
-                Navigation.NavigateTo("/");
-            }
-            else
-            {
-                // Handle login failure
-            }
-        }
-
-
-        public string Email { get; set; }
-
-        public string Password { get; set; }
-    }
-
-    private LoginModel loginModel = new LoginModel();
-
-}
+@using SGE.UI.Components

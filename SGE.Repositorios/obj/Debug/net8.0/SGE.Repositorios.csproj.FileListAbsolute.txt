@@ -13,3 +13,4 @@ C:\Users\fedec\OneDrive\Documentos\SGE\SGE.Repositorios\obj\Debug\net8.0\SGE.Rep
 C:\Users\fedec\OneDrive\Documentos\SGE\SGE.Repositorios\obj\Debug\net8.0\refint\SGE.Repositorios.dll
 C:\Users\fedec\OneDrive\Documentos\SGE\SGE.Repositorios\obj\Debug\net8.0\SGE.Repositorios.pdb
 C:\Users\fedec\OneDrive\Documentos\SGE\SGE.Repositorios\obj\Debug\net8.0\ref\SGE.Repositorios.dll
+c:\Users\fedec\OneDrive\Documentos\SGE\SGE.Repositorios\obj\Debug\net8.0\SGE.Repositorios.sourcelink.json

@@ -3,7 +3,7 @@ namespace SGE.Aplicacion;
 
 public class CasoDeUsoTramiteAlta(ITramiteRepositorio tramiteRepositorio, IExpedienteRepositorio expedienteRepositorio, IServicioAutorizacion servicioAutorizacionProvisorio, IEspecificacionCambioDeEstado especificacionCambioDeEstado)
 {
-    public CasoDeUsoTramiteAlta Ejecutar(int idUsuario, Tramite tramite)
+    public void Ejecutar(int idUsuario, Tramite tramite)
     {
 
         if (!servicioAutorizacionProvisorio.PoseeElPermiso(idUsuario, Permiso.TramiteAlta))
@@ -18,7 +18,6 @@ public class CasoDeUsoTramiteAlta(ITramiteRepositorio tramiteRepositorio, IExped
         tramiteRepositorio.Alta(tramite);
 
         ServicioActualizacionEstado.ActualizarEstado(tramiteRepositorio, expedienteRepositorio, especificacionCambioDeEstado, tramite.ExpedienteId, idUsuario);
-        return this;
     }
 }
 

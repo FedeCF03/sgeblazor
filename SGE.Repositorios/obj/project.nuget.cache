@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DqDM4V3oVJJRp0zGabPOLvyq+CGgIE+SNJckUEzDvjlKjDE7LJWNdmOv20YTj7JPnZtyp1zzqJHy1OP5ukDi6A==",
+  "dgSpecHash": "SqJ+NEQZg8pAOA28a0QPPLG7pgIiymnnhIR02u4TtHGqTxphEaTSiVPydLlgjcSKe2bvLv7NAJ/t8nctq8zppw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\SGE.Repositorios.csproj",
+  "projectFilePath": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.Repositorios\\SGE.Repositorios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fedec\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.6\\microsoft.data.sqlite.core.8.0.6.nupkg.sha512",
     "C:\\Users\\fedec\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",

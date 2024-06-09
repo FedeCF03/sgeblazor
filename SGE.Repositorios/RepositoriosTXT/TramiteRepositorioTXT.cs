@@ -38,7 +38,6 @@ public class TramiteRepositorioTXT : ITramiteRepositorio
         }
     }
 
-    //El metodo devuelve un booleano, el ID del expediente al que el trámite está asignado, o -1 si no existe dicho trámite
     public void Baja(int idTramite, out int idExpediente)
     {
         int id = -1;
@@ -227,12 +226,9 @@ public class TramiteRepositorioTXT : ITramiteRepositorio
         return lista;
     }
 
-
-    //Modifica el trámite en el archivo de texto y devuelve la etiqueta del trámite antes de ser modificado
     public void Modificar(Tramite tramite)
     {
         int id = -1;
-        //Funciona así el alcanze del using?
         {
             using StreamWriter sw = new(NombreArchAux);
             using StreamReader sr = new(NombreArch);

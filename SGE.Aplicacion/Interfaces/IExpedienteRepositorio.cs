@@ -8,6 +8,6 @@ public interface IExpedienteRepositorio
     Expediente BuscarPorId(int idExpediente);
     List<Expediente> ListarTodos();
     List<Expediente> ListarPorEstado(EstadoExpediente estado);
-    void ActualizarEstado(int idUsuario, int idExpediente, EstadoExpediente? estado);
+    void ActualizarEstado(int idUsuario, int idExpediente, EstadoExpediente estado);
 
 }

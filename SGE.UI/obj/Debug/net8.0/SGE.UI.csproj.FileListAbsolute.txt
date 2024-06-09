@@ -62,3 +62,4 @@ C:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI\obj\Debug\net8.0\refint\SGE.UI.dll
 C:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI\obj\Debug\net8.0\SGE.UI.pdb
 C:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI\obj\Debug\net8.0\SGE.UI.genruntimeconfig.cache
 C:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI\obj\Debug\net8.0\ref\SGE.UI.dll
+c:\Users\fedec\OneDrive\Documentos\SGE\SGE.UI\obj\Debug\net8.0\SGE.UI.sourcelink.json

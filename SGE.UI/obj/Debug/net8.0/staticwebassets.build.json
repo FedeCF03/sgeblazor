@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hlq4DlACV2GoCBYp4CzbygHkFbKQhGOWG91QbzhGLyc=",
+  "Hash": "awoSNDu+xQi9Am42Ay5kThjPRhstByJ5hCIPcgAXei8=",
   "Source": "SGE.UI",
   "BasePath": "_content/SGE.UI",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "SGE.UI\\wwwroot",
       "Source": "SGE.UI",
-      "ContentRoot": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
       "BasePath": "_content/SGE.UI",
       "Pattern": "**"
     }
@@ -58,7 +58,7 @@
       "Identity": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\app.css",
       "SourceId": "SGE.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
       "BasePath": "_content/SGE.UI",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -77,7 +77,7 @@
       "Identity": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "SGE.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
       "BasePath": "_content/SGE.UI",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -96,7 +96,7 @@
       "Identity": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "SGE.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
       "BasePath": "_content/SGE.UI",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -115,7 +115,7 @@
       "Identity": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\favicon.png",
       "SourceId": "SGE.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\fedec\\OneDrive\\Documentos\\SGE\\SGE.UI\\wwwroot\\",
       "BasePath": "_content/SGE.UI",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

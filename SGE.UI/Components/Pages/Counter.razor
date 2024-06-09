@@ -1,19 +1,39 @@
 ﻿@page "/counter"
+@using SGE.Aplicacion
+@using SGE.Repositorios
+@namespace SGE.Aplicacion.CasosDeUso
+
 @rendermode InteractiveServer
 
 <PageTitle>Counter</PageTitle>
 
-<h1>Counter</h1>
+<!-- <h1>Counter</h1>
 
 <p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button> -->
+
+
+<h3>Agregar Expediente</h3>
+
+<h3>Agregar Expediente</h3>
+
+<EditForm Model="@expediente">
+    <div class="form-group">
+        <label for="caratula">Caratula:</label>
+        <InputText id="caratula" @bind-Value="expediente.Caratula" class="form-control" />
+    </div>
+    <button type="btn btn-primary" @onclick="Agregar" class="btn btn-primary">Agregar</button>
+</EditForm>
+
+
 
 @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
+    private Expediente expediente = new Expediente();
+    private CasoDeUsoExpedienteAlta casoDeUsoExpedienteAlta = new(new ExpedienteSqlite(), new ServicioAutorizacion(new
+    UsuarioSqlite()));
+    private void Agregar()
     {
-        currentCount++;
+        casoDeUsoExpedienteAlta.Ejecutar(1, expediente);
     }
 }
